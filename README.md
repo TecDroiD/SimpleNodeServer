@@ -23,6 +23,7 @@ Running active server content is possible by simply creating a lua script which 
 It is possible to change response code (default is __200 OK__), as well as content-type (default is __text/html__) by setting some global variables.
 
 > `_MIMETYPE = "text/json";` can be useful if you want to response json, eg. to use it with javascript
+
 > `_RESPONSE = "500 Internal Server Error";` just in case ... ;)
 
 Additionally, you can react on GET parameters (Post not yet implemented) which cn be found in the table `_GET`
